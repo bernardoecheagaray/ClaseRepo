@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{ACAA8F24-8F86-4249-A2D6-26862960AB70}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="AMC" ID="{ACAA8F24-8F86-4249-A2D6-26862960AB70}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="drone" ID="{5674843C-276B-4AE3-9149-EE8A68D326E4}" ShortID="494749611">
+					<PropertyList>
+						<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
+						<Property Name="Soundly:FileID" Type="string" Value="SND1323"/>
+						<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1717431951FAK41H74fY3EZqbRYo3&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND1323/L2FwcGhvc3RpbmdfcHJvZC9ibG9icy9BRW5CMlVyUHF3MEwtTTVMb2szYXRDTnBKclJldzY5S0ZVTUhvYWRSZExVbkJQRnpLcG5reURES1JsRWJUMV91d2g5TnA1OTNfLVB3Rkk0VzZkd0lsdmJyXzZLMGZ0R3FhUS5sTGh6YTdGRFp6MTFTNENR"/>
+						<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
+						<Property Name="Soundly:HandleStopTime" Type="string" Value="28.896145833333332"/>
+						<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
+						<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
+						<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
+						<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
+						<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
+						<Property Name="Soundly:RenderedFilePath" Type="string" Value="/Users/macintosh/Documents/Soundly Audio/Designed, Drone, Short, Dark, Ominous Swells SND1323.wav"/>
+						<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="96000"/>
+						<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
+						<Property Name="Soundly:SelectionStopTime" Type="string" Value="0.395"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9C26A48-6FB7-405E-B333-E245A7D414EE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A844A9C3-F3B0-4825-B8DE-B09820FAC582}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Designed, Drone, Short, Dark, Ominous Swells SND1323" ID="{B744D82B-6495-43EB-BA72-04BD096B62ED}">
+							<PropertyList>
+								<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND1323"/>
+								<Property Name="TrimEnd" Type="Real64" Value="11.4139776041667"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Soundly Audio\Designed, Drone, Short, Dark, Ominous Swells SND1323.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="277843263"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Designed, Drone, Short, Dark, Ominous Swells SND1323" ID="{B744D82B-6495-43EB-BA72-04BD096B62ED}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
