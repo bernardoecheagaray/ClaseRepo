@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CDD76D65-1EFD-4C0C-A1E5-CE86E5499691}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="AliMejia" ID="{CDD76D65-1EFD-4C0C-A1E5-CE86E5499691}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="amb" ID="{B109B06C-D3A0-4ECC-9659-299744B78150}" ShortID="533582136">
+					<PropertyList>
+						<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
+						<Property Name="Soundly:FileID" Type="string" Value="SND76347"/>
+						<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1717431951FAK41H74fY3EZqbRYo3&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND76347/sfy_hOSLiWahSXrAENLgtcHqDQaZlRmZLO"/>
+						<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
+						<Property Name="Soundly:HandleStopTime" Type="string" Value="34.92760888888889"/>
+						<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
+						<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
+						<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
+						<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
+						<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
+						<Property Name="Soundly:RenderedFilePath" Type="string" Value="/Users/macintosh/Documents/Soundly Audio/Ambience, Suburban, City Night, Evening Ambience, Crickets, Cicadas, Dog Barks, Distant Traffic (LCRLsRsLFE) SND76347.wav"/>
+						<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="96000"/>
+						<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
+						<Property Name="Soundly:SelectionStopTime" Type="string" Value="0.035833333333333335"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9C26A48-6FB7-405E-B333-E245A7D414EE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A844A9C3-F3B0-4825-B8DE-B09820FAC582}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Ambience, Suburban, City Night, Evening Ambience, Crickets, Cicadas, Dog Barks, Distant Traffic (LCRLsRsLFE) SND76347" ID="{99FF0A21-CCB9-4EAD-9497-87275190D2F1}">
+							<PropertyList>
+								<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND76347"/>
+								<Property Name="TrimEnd" Type="Real64" Value="4.92760888888889"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Soundly Audio\Ambience, Suburban, City Night, Evening Ambience, Crickets, Cicadas, Dog Barks, Distant Traffic (LCRLsRsLFE) SND76347.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="203836020"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Ambience, Suburban, City Night, Evening Ambience, Crickets, Cicadas, Dog Barks, Distant Traffic (LCRLsRsLFE) SND76347" ID="{99FF0A21-CCB9-4EAD-9497-87275190D2F1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
