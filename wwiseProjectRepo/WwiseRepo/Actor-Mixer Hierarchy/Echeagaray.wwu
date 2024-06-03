@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D8CEB58B-6976-4FB1-B053-491BC33DBE0D}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Echeagaray" ID="{D8CEB58B-6976-4FB1-B053-491BC33DBE0D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Loop" ID="{7A385EA4-1525-4DEB-85FE-B4A231829ED1}" ShortID="42937448">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9C26A48-6FB7-405E-B333-E245A7D414EE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A844A9C3-F3B0-4825-B8DE-B09820FAC582}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="68_gutter_brothers_house_of_ill_repute_myzuka_conv-audiotrimmer" ID="{CCCDD39B-60CD-46EB-BF4D-917FDB801315}">
+							<Language>SFX</Language>
+							<AudioFile>68_gutter_brothers_house_of_ill_repute_myzuka_conv-audiotrimmer.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="652998801"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="68_gutter_brothers_house_of_ill_repute_myzuka_conv-audiotrimmer" ID="{CCCDD39B-60CD-46EB-BF4D-917FDB801315}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
