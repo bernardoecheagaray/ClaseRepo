@@ -5,6 +5,11 @@
 			<ChildrenList>
 				<Sound Name="amb" ID="{B109B06C-D3A0-4ECC-9659-299744B78150}" ShortID="533582136">
 					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-810</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
 						<Property Name="Soundly:FileID" Type="string" Value="SND76347"/>
 						<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1717431951FAK41H74fY3EZqbRYo3&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND76347/sfy_hOSLiWahSXrAENLgtcHqDQaZlRmZLO"/>
@@ -19,6 +24,11 @@
 						<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="96000"/>
 						<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
 						<Property Name="Soundly:SelectionStopTime" Type="string" Value="0.035833333333333335"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
