@@ -2,3 +2,10 @@
 /wwiseProjectRepo/WwiseRepo/.cache
 wwiseProjectRepo/WwiseRepo/WwiseRepo.crossover.wsettings
 wwiseProjectRepo/WwiseRepo/WwiseRepo.crossover.validationcache
+*.validationcache
+*.wsettings
+*.wsettings
+*.validationcache
+wwiseProjectRepo/WwiseRepo/.DS_Store
+*.validationcache
+*.wsettings
